@@ -1,0 +1,54 @@
+# ==============================================================================
+# ROBOVISION QMS 4.0 — .gitignore
+# ==============================================================================
+
+# Python Environments & Bytecode
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Testing & Profiling
+.pytest_cache/
+.coverage
+htmlcov/
+.benchmarks/
+
+# Node.js & Dependencies
+frontend/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+logs/
+outputs/robot_vision.log
+tmp/
+temp/
+
+# Note: frontend/dist is intentionally tracked so that users can run the web
+# application immediately via run_web.bat or python without requiring Node.js.
